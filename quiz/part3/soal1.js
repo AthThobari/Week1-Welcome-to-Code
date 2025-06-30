@@ -17,12 +17,10 @@ while (i < maju) {
     }
 }
 
-i = 0;
+
 console.log("LOOPING KEDUA")
-while (i < mundur) {
-    console.log("anda sudah mundur sebanyak ", mundur)
-    mundur -= 1;
-    if (i >= mundur) {
-        break
-    }
+i = mundur;
+while (i > 0) {
+    console.log("anda sudah mundur sebanyak ", i)
+    i--;
 }
