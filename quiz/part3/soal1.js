@@ -10,7 +10,7 @@ let i = 0;
 
 console.log("LOOPING PERTAMA")
 while (i < maju) {
-    i += 1;
+    i++;
     console.log("anda sudah maju sebanyak", i)
     if (i >= maju) {
         break
@@ -21,6 +21,6 @@ while (i < maju) {
 console.log("LOOPING KEDUA")
 i = mundur;
 while (i > 0) {
-    console.log("anda sudah mundur sebanyak ", i)
+    console.log("anda sudah mundur sebanyak", i)
     i--;
 }
